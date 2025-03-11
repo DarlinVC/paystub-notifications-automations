@@ -13,7 +13,6 @@ class PaystubService:
     def __init__(self, data):
         load_dotenv()
         self.country = data["country"]
-        self.credentials = data["credentials"]
         self.company_name = data["company_name"]
         self.payroll_data = data["payroll_data"]
         
